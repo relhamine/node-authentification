@@ -1,0 +1,13 @@
+{
+  "name": "main",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "2.1.1",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {},
+  "appPath": "public",
+  "resolutions": {
+    "jquery": "2.1.1"
+  }
+}

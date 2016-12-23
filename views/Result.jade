@@ -1,0 +1,16 @@
+extends layout
+
+block title
+    title Overriden Example
+
+block scripts
+    script(src="js/index-js.html")
+
+block stylesheets
+    link(href='stylesheets/style.css', rel='stylesheet', type='text/css')
+
+block content
+    span.title  Title : Résultat
+
+    //include formulaire.html
+    p Login : #{sayHelloTo.username} / Password : #{sayHelloTo.password}.
